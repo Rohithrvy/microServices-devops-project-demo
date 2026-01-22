@@ -180,7 +180,7 @@ type productCatalog struct {
 
 func readProductFiles() ([]*pb.Product, error) {
 
-	// find all .json files in the products directory
+	// find all .json files in the products directory.
 	entries, err := os.ReadDir("./products")
 	if err != nil {
 		return nil, err
@@ -315,6 +315,10 @@ func createClient(ctx context.Context, svcAddr string) (*grpc.ClientConn, error)
 		grpc.WithStatsHandler(otelgrpc.NewClientHandler()),
 	)
 }
+
+
+
+
 
 
 
