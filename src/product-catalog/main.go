@@ -317,7 +317,11 @@ func createClient(ctx context.Context, svcAddr string) (*grpc.ClientConn, error)
 }
 
 
+<<<<<<< HEAD
 
+=======
+//**********************************
+>>>>>>> 8167ede (modified main.go and ci.yml file again)
 
 
 

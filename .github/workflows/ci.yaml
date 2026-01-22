@@ -47,7 +47,10 @@ jobs:
           uses: golangci/golangci-lint-action@v6
           with:
             version: v1.55.2
+<<<<<<< HEAD
             run: golangci-lint run
+=======
+>>>>>>> 8167ede (modified main.go and ci.yml file again)
             working-directory: src/product-catalog
 
     docker:
